@@ -1,6 +1,7 @@
-= CapybaraConsole
+CapybaraConsole
+===============
 
-This tiny gem provides you with a capybara console for your Rails project.
+This tiny gem provides you with a [Capybara](https://github.com/jnicklas/capybara) console for your Rails project.
 Simply include it in your Gemfile:
 
     gem 'capybara-console'
@@ -9,15 +10,13 @@ Simply include it in your Gemfile:
 
     rake capybara:console
 
-and you're completely set to go REPLing with capybara, like
+and you're completely set to go REPLing with Capybara, like
 
     > visit 'http://github.com'
 
 or
 
     > visit '/'
-
-to get to the root of your project.
 
 If you need something included in your console by default, create an `capybara:prepare_console` task:
 
@@ -36,6 +35,6 @@ If you need something included in your console by default, create an `capybara:p
 
     end
 
-Enjoy
+Enjoy!
 
 Licensed under MIT-LICENSE.
