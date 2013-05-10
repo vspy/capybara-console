@@ -6,7 +6,7 @@ Simply include it in your Gemfile:
 
     gem 'capybara-console'
 
-, then simly run
+, then run
 
     rake capybara:console
 
