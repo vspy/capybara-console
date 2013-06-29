@@ -12,8 +12,10 @@ namespace :capybara do
     require 'irb'
     ARGV.clear
 
-    prepare = Rake::Task['capybara:prepare_console']
-    prepare.invoke if prepare
+    prepare_task = 'capybara:prepare_console'
+    if Rake::Task.task_defined?(prepare_task)
+      Rake::Task[prepare_task].invoke
+    end
 
     IRB.start
   end
