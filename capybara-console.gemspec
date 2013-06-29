@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.summary     = "Capybara console for rails"
   s.description = "Adds the rake task to launch capybara console for your Rails project."
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
   s.test_files = []
 
   s.add_dependency "rails", "~> 3.0"
