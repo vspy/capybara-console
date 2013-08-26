@@ -3,7 +3,7 @@ PATH
   specs:
     capybara-console (0.0.2)
       capybara
-      rails (~> 4.0)
+      rails (>= 3.0)
 
 GEM
   remote: http://rubygems.org/
