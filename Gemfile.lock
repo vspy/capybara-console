@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    capybara-console (0.0.2)
+    capybara-console (0.0.3)
       capybara
       rails (>= 3.0)
 
@@ -50,7 +50,7 @@ GEM
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
-    mime-types (1.24)
+    mime-types (1.25)
     mini_portile (0.5.1)
     minitest (4.7.5)
     multi_json (1.7.9)
