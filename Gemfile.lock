@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    capybara-console (0.0.3)
+    capybara-console (0.0.4)
       capybara
       rails (>= 3.0)
 
